@@ -1,0 +1,13 @@
+# Copy redfish_query.py in /home/stack/
+# Become root 
+sudo su
+# Activate the venv
+source /opt/stack/service/alexandria/venv/bin/activate
+
+# Execute the script
+# python redfish_query.py ilo_ip ilo_user ilo_pass log_file_path
+
+# For example
+# python redfish_query.py 172.30.0.42 Administrator C842423C ./tmp/redfish.log
+
+
